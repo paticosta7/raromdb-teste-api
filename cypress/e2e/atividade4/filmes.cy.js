@@ -126,4 +126,29 @@ describe("Filmes e atualizações no sistema Raromdb", function () {
       });
     });
   });
+  it("Deve retornar filme com review", function () {
+    const id = 13;
+
+    cy.request({
+      method: "GET",
+      url: `https://raromdb-3c39614e42d4.herokuapp.com/api/movies/${id}`,
+    }).then((response) => {
+      expect(response.status).to.equal(200);
+      expect(response.body.id).to.equal(id);
+      expect(response.body).to.have.property("reviews");
+    });
+  });
 });
+it("Deve retornar filme com review", function () {
+  const id = 13;
+
+  cy.request({
+    method: "GET",
+    url: `https://raromdb-3c39614e42d4.herokuapp.com/api/movies/${id}`,
+  }).then((response) => {
+    expect(response.status).to.equal(200);
+    expect(response.body.id).to.equal(id);
+    expect(response.body).to.have.property("reviews");
+  });
+});
+
