@@ -1,0 +1,14 @@
+{
+  "review1": {
+    "movieId": 13,
+    "score": 5,
+    "reviewText": "Filme muito bom"
+  },
+  "review2": {
+    "movieId": 13,
+    "movieTitle": "O Poderoso Chefão",
+    "score": 4,
+    "reviewText": "Filme muito bom",
+    "reviewType": 1
+  }
+}
