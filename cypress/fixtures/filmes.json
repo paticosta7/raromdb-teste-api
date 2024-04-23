@@ -1,0 +1,16 @@
+{
+  "movie1": {
+    "title": "O Poderoso Chefão",
+    "genre": "Drama",
+    "description": "Uma família mafiosa luta para estabelecer sua supremacia nos Estados Unidos depois da Segunda Guerra Mundial. Uma tentativa de assassinato deixa o chefão Vito Corleone incapacitado e força os filhos Michael e Sonny a assumir os negócios.",
+    "durationInMinutes": 175,
+    "releaseYear": 1972
+  },
+  "movie2": {
+    "title": "The Godfather",
+    "genre": "Crime",
+    "description": "Início do século XX. Após a máfia local matar sua família, o jovem Vito (Robert De Niro) foge da sua cidade na Sicília e vai para a América. Já adulto em Little Italy, Vito luta para ganhar a vida (legal ou ilegalmente) e manter sua esposa e filhos.",
+    "durationInMinutes": 212,
+    "releaseYear": 1974
+  }
+}
